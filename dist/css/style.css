@@ -1,0 +1,134 @@
+@import url("https://fonts.googleapis.com/css2?family=Overpass:wght@300;600&family=Ubuntu:wght@400;500;700&display=swap");
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Ubuntu", sans-serif;
+}
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+}
+
+ul {
+  list-style-type: none;
+  color: white;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.container {
+  margin: 0 50px;
+}
+
+.main-bg {
+  background: url("/images/bg-pattern-intro.svg") no-repeat, -webkit-gradient(linear, left top, right top, color-stop(29%, #ff8f70), color-stop(71%, #ff3d54));
+  background: url("/images/bg-pattern-intro.svg") no-repeat, linear-gradient(90deg, #ff8f70 29%, #ff3d54 71%);
+  background-position: center;
+  border-bottom-left-radius: 20px;
+  color: white;
+}
+
+.main-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding: 80px 0 150px 0;
+}
+
+.main-content .main-nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.main-content .main-nav div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.main-content .main-nav div .click-nav {
+  padding-right: 20px;
+  position: relative;
+}
+
+.main-content .main-nav div .click-nav h2 {
+  font-weight: 400;
+  font-size: 1.2rem;
+  margin-left: 80px;
+}
+
+.main-content .main-nav div .click-nav h2::after {
+  content: url("/images/icon-arrow-light.svg");
+  position: absolute;
+  right: 0px;
+  top: 13px;
+}
+
+.main-content .main-nav div .dropdown li a {
+  display: none;
+}
+
+#logo {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 800;
+  font-size: 2.5rem;
+}
+
+#main-header-section {
+  text-align: center;
+}
+
+#main-header-section .main-header {
+  font-size: 4rem;
+  font-weight: 600;
+  font-family: "Overpass", sans-serif;
+  line-height: 0.2;
+}
+
+#main-header-section p {
+  font-family: "Overpass", sans-serif;
+  font-size: 1.2rem;
+  letter-spacing: 0.05rem;
+}
+
+.buttons button {
+  padding: 12px 0;
+  margin: 1rem;
+  width: 8rem;
+  border: none;
+  border-radius: 50px;
+  font-weight: 700;
+  background: none;
+  font-size: 1rem;
+  color: white;
+}
+
+.buttons button:hover {
+  background-color: white;
+  cursor: pointer;
+  color: #ff525d;
+}
+
+.buttons .mid-Btn {
+  border: 1px solid white;
+  margin: 50px 10px 150px 0;
+}
+/*# sourceMappingURL=style.css.map */
